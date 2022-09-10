@@ -13,31 +13,33 @@ int main(void)
 	e = 48;
 	g = 48;
 
-	g = 48;
-	while (g < 58)
+	e = 48;
+	while (e < 58)
 	{
-			e = 48;
-			while (e < 58)
+		i = 48;
+		while (i < 58)
+		{
+			g = 48;
+			while (g < 58)
 			{
-				i = 48;
-				while (i < 58)
+				if (e != i && e != g && i != g && e < i && i < g)
 				{
 					putchar(e);
-					putchar(g);
 					putchar(i);
-					if (i == 57 && e == 56 && g == 55)
+					putchar(g);
+					if (i == 56 && e == 55 && g == 57)
 					{
-						break;
+						braek;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				i++;
+				g++;
 			}
-			e++;
+			i++;
 		}
-		g++;
+		e++;
 	}
-	putchar('\n');
+	putcahr('\n');
 	return (0);
 }
