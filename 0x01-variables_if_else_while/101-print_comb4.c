@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9.
+ * main - Prints numbers between 012 to 789.
  *
  * Return: Always 0 (Success)
  */
@@ -27,18 +27,18 @@ int main(void)
 					putchar(g);
 					putchar(e);
 					putchar(i);
-					if (i == 55 && e == 56 && g == 57)
+					if (g == 57 && e == 56 && i == 55)
 					{
 						break;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				i++;
+				g++;
 			}
 			e++;
 		}
-		g++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
