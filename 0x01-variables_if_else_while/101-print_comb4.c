@@ -1,45 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 012 to 789.
+ * main - a simple program that outputs 0-9 seperated by commas
  *
- * Return: Always 0 (Success)
+ * Return: 0 on success
  */
 int main(void)
 {
-	int i, e, g;
+		int i;
+		int j;
+		int k;
 
-	i = 48;
-	e = 48;
-	g = 48;
-
-	g = 48;
-	while (g < 58)
-	{
-		e = 48;
-		while (e < 58)
+		for (i = 48; i < 56; i++)
 		{
-			i = 48;
-			while (i < 58)
+			for (j = i + 1; j < 57; j++)
 			{
-				if (g != i && g != e && i != g && g < i && g < e)
+				for (k = j + 1; K < 58; k++)
 				{
-					putchar(g);
-					putchar(e);
 					putchar(i);
-					if (g == 55 && e == 56 && i == 57)
+					putchar(j);
+					putchar(k);
+					if (i != 55 || j != 56 || k != 57)
 					{
-						break;
+						putchar(',');
+						putchar(' ');
 					}
-					putchar(',');
-					putchar(' ');
 				}
-				g++;
 			}
-			e++;
 		}
-		i++;
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
