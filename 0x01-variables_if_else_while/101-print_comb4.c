@@ -29,7 +29,7 @@ int main(void)
 					putchar(i);
 					if (i == 57 && e == 56 && g == 55)
 					{
-						braek;
+						break;
 					}
 					putchar(',');
 					putchar(' ');
@@ -40,6 +40,6 @@ int main(void)
 		}
 		g++;
 	}
-	putcahr('\n');
+	putchar('\n');
 	return (0);
 }
