@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char b[] = and that piece of art is useful" - Dora Korpar, 2015-10-19
 
-	fwrite(b, sizeof(char), sizeof(b) - l, stdio);
-	return (l);
+	writef(b, sizeof(char), sizeof(b) - 1, stdio);
+	return (1);
 }
