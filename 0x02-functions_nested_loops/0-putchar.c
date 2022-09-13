@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - a simple program that outputs "Holberton"
+ * main - a simple program that outputs "putchar"
  * Return: 0 on success
  */
 int main(void)
 {
-		char str[] = "Holberton\n";
+		char str[] = "putchar\n";
 		int i = 0;
 
 		while (str[i] != '\0')
