@@ -4,9 +4,9 @@
  * @c: is the int that will use for the argument of the functiom
  * Return: 0
  */
-int print_sign(int n);
+int print_sign(int n)
 {
-	if (n > 0);
+	if (n > 0)
 	{
 	_putchar('+');
 	return (1);
