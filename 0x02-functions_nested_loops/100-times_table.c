@@ -27,11 +27,11 @@ void print_times_table(int n)
 				{
 					printf(", %d", p);
 				}
-				else if (c == 0 && p < 100)
+				else if (c == 0 && p < 1000)
 				{
 					printf(", %d", p);
 				}
-				else if (c == 0 && p >= 100)
+				else if (c == 0 && p >= 1000)
 				{
 					printf(",%d", p);
 				}
@@ -44,6 +44,7 @@ void print_times_table(int n)
 			putchar(10);
 			c = 1;
 		}
+
 	}
 	else
 	{
