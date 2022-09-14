@@ -1,35 +1,24 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_times_table - prints out an arbitrary multiplication table between
- * 1 and 15
+ * print_times_table - function
  *
- * @n: integer that defines dimensions for the table
+ * @n: parameter
  *
- * Return void
+ * Return: end progress
  */
 void print_times_table(int n)
 {
-	char buffer[5] = ", ",
-	int i, J, num;
+	int a, m, p;
+	int c = 1;
 
-	if (n < 0 || n > 15)
-		return;
-	for (i = 0; i <= n; i++)
+	if (n >= 0 && n <= 15)
 	{
-		_putchar('0');
-		for (j = 1; j <= n; j++)
+		for (m = 0; m <= n; m++)
 		{
-			num = i * j;
-			buffer[2] = num / 100 + 48;
-			buffer[3] = num / 10 % 10 + 48;
-			buffer[4] = num % 10 + 48;
-			if (buffer[2] == '0')
-				buffer[2] = ' ';
-			if (buffer[3] == '0' && buffer[2] == ' ')
-				buffer[3] = ' ';
-			_printstr(buffer);
-		}
-		_putchar('\n');
-	}
-}
+			for (a = 0; a <= n; a++)
+-			{
++			{
+				p = m * a;
+				if (c == 0 && p < 10)
+				{
