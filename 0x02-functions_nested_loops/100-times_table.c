@@ -2,17 +2,15 @@
 #include <stdio.h>
 /**
  * print_times_table - function
- *
  * @n: parameter
- *
  * Return: end program
  */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int a, m, p;
-	int c = 1;
+	int c, = 1;
 
-	if (n >= 0 && n <= 15)
+	if (n >=0 && n <= 15)
 	{
 		for (m = 0; m <= n; m++)
 		{
@@ -42,11 +40,10 @@ void print_times_table(int n);
 				c = 0;
 			}
 			putchar(10);
-			c = 2;
+			c = 1;
 		}
-		
 	}
 	else
 	{
 	}
-}
+}	
