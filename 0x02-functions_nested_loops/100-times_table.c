@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_times_table - function
  *
@@ -13,7 +12,7 @@ void print_times_table(int n);
 	int a, m, p;
 	int c = 1;
 
-	if (n >= 0  &&  n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (m = 0; m <= n; m++)
 		{
@@ -45,7 +44,7 @@ void print_times_table(int n);
 			putchar(10);
 			c = 2;
 		}
-		return (0);
+		
 	}
 	else
 	{
