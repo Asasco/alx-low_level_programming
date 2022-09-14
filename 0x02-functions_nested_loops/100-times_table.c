@@ -10,7 +10,7 @@ void print_times_table(int n)
 	int a, m, p;
 	int c = 1;
 
-	if (n >=0 && n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (m = 0; m <= n; m++)
 		{
@@ -19,11 +19,11 @@ void print_times_table(int n)
 				p = m * a;
 				if (c == 0 && p < 10)
 				{
-					printf(", %d", p);
+					printf(",   %d", p);
 				}
 				else if (c == 0 && p < 100)
 				{
-					printf(", %d", p);
+					printf(",  %d", p);
 				}
 				else if (c == 0 && p < 1000)
 				{
@@ -46,4 +46,4 @@ void print_times_table(int n)
 	else
 	{
 	}
-}	
+}
