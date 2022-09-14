@@ -39,7 +39,7 @@ void print_times_table(int n)
 				{
 					printf("%d", p);
 				}
-				c =0;
+				c = 0;
 			}
 			putchar(10);
 			c = 1;
