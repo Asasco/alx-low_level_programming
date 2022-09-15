@@ -2,25 +2,22 @@
 #include "main.h"
 
 /**
- * more_numbers - prints numbers to 14
+ * print_most_numbers - prints numbers except 2 and 4
  *
  * Return: returns nothing
  */
 
-void more_numbers(void)
+void print_most_numbers(void)
 {
-	int n1, n2;
+	int n;
 
-	for (n1 = 0; n1 < 10; n1++)
+	for (n = 48; n < 58; n++)
 	{
-		for (n2 = 0; n2 <= 14; n2++)
+		if ((n == 50) || (n == 52))
 		{
-			if (n2 > 9)
-			{
-				putchar((n2 / 10) + '0');
-			}
-			putchar((n2 % 10) + '0');
+			continue;
 		}
-		putchar(10);
+		putchar(n);
 	}
+	putchar(10);
 }
