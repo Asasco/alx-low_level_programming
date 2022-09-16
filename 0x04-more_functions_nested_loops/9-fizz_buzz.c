@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main function
  *
@@ -20,6 +21,6 @@ int main(void)
 			printf("%d", num);
 		n++;
 	}
-	printf("Buzz\n");
+	printf("\n");
 	return (0);
 }
