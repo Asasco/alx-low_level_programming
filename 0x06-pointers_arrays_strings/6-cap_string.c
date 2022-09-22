@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - return the length of a string
+ * _strlen - returns the length of a string
  * @s: string
  * Return: returns length as integer;
  */
@@ -49,4 +49,3 @@ char *cap_string(char *str)
 
 	return (str);
 }
-
