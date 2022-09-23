@@ -6,6 +6,7 @@
  *
  * Return: address of the encoded string
  */
+
 char *leet(char *str)
 {
 	int i = 0;
