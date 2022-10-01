@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - Prints coins left
- * @args: parameter Entry
+ * main - Prints coints left
+ * @args: Parameter Entry
  * @argv: One number of arguments
- * Return: zero on one number of argument
+ * Return: zero onOne number of arguments
  */
 
 int main(int args, char *argv[])
@@ -45,4 +45,4 @@ int main(int args, char *argv[])
 	}
 	printf("%d\n", coins);
 	return (0);
-}	
+}
