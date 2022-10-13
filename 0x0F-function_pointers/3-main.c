@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	/* check if there is only one operator*/
+	/* check if theres only one operator*/
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	}
 
 	s = argv[2][0];
-	if (s != '+' && s != '-' && s != '/' && s != '"' && s != '%')
+	if (s != '+' && s != '-' && s != '/' && s != '*' && s != '%')
 	{
 		printf("Error\n");
 		exit(99);
