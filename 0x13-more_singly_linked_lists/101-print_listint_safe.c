@@ -32,7 +32,7 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	printf("[%p] %i\n", (void *)s_ptr, s_ptr->n);
 	size += 1;
-	f (f_ptr)
+	if (f_ptr)
 		printf("-> [%p] %i\n", (void *)f_ptr, f_ptr->n);
 
 	return (size);
